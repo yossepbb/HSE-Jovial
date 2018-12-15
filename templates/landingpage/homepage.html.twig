@@ -34,8 +34,8 @@
         <div class="row">
             <!-- card 1 -->
 
+            {% for service in services %}
             <div class="col-xs-12 col-sm-3">
-                {% for service in services %}
                 <!-- insert <div class="card"> -->
                 <div class="card">
                     <div class="card" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url('https://static.lematin.ma/files/lematin/images/articles/2014/10/Congres-international-sur-la-toxicologie.jpg');">
@@ -50,8 +50,8 @@
                     </div>
                     <a class="btn btn-success btn-lg">En savoir plus</a>
                 </div>
-                {% endfor %}
             </div>
+            {% endfor %}
 
 
         </div>
