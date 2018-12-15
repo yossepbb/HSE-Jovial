@@ -22,6 +22,7 @@ class LandingController extends AbstractController
 
     public function homepage()
     {
+        
         $services = [
             'Toxicologue expert', 'Santé et respect des normes', 'cosmétique', 'environnement'
         ];
