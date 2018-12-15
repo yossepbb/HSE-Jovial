@@ -24,7 +24,7 @@ class LandingController extends AbstractController
     {
         dump($this);
         $services = [
-            'Toxicologue expert', 'Santé et respect des normes', 'cosmétique', 'environnement'
+            'Toxicologue expert', 'Santé et respect des normes', 'cosmétique', 'environnement', 'Maladie', 'Alimentation', 'Regime'
         ];
 
         return $this -> render('landingpage/homepage.html.twig',
