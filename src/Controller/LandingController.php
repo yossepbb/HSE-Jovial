@@ -32,8 +32,8 @@ class LandingController extends AbstractController
     public function show($slug)
     {
 
-        return new Response(sprintf(
-            "HSE Global Security Assesment: %s", $slug
-        ));
+        return $this -> render('landingpage/show.html.twig.html',
+            ['title' => ucwords(str_replace('-',' ',$slug))]
+            );
     }
 }
