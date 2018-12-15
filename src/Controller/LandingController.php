@@ -22,7 +22,7 @@ class LandingController extends AbstractController
 
     public function homepage()
     {
-        
+        dump($this);
         $services = [
             'Toxicologue expert', 'Santé et respect des normes', 'cosmétique', 'environnement'
         ];
