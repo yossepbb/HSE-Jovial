@@ -22,8 +22,12 @@ class LandingController extends AbstractController
 
     public function homepage()
     {
+        $services = [
+            'Toxicologue expert', 'Santé et respect des normes', 'cosmétique', 'environnement'
+        ];
 
-        return new Response('My first paid project and it is with Symfony GREAT!!!!!');
+        return $this -> render('landingpage/homepage.html.twig',
+            ['services' => $services]);
     }
 
     /**
