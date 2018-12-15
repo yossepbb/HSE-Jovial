@@ -3,7 +3,7 @@
 
     <head>
 
-        <title>{% block title %}Global Toxicology and risk assesment{% endblock %}</title>
+        <title>{% block title %}{% endblock %}</title>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <meta name="description" content="toxicologue, cosmétique, environnement, santé">
@@ -22,12 +22,6 @@
     <body>
 
         <nav class="navbar navbar-expand-lg navbar-dark navbar-bg mb-5">
-            <a href="/" class="navbar-brand">
-                <img src="https://ebi-edu.com/stock/lib/Photos/L%20ECOLE/Environnement.jpg" alt="logo" style="height: 50px; width: 50px;">
-            </a>
-
-
-
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -35,7 +29,10 @@
             <div class="collapse navbar-collapse" id="navbarNavDropdown">
                 <ul class="navbar-nav mr-auto">
                     <li class="navbar-wagon-item">
-                        <a style="margin-left: 75; color: #222222;" class="navbar-brand space-brand" href="#">QUI SOMMES-NOUS ?</a>
+                        <a style="margin-left: 5px; color: #222222;" class="navbar-brand space-brand" href="#">HOME</a>
+                    </li>
+                    <li class="navbar-wagon-item">
+                        <a style="color: #222222;" class="nav-link" href="#">QUI SOMMES-NOUS ?</a>
                     </li>
                     <li class="nav-item">
                         <a style="color:#222222;" class="nav-link" href="#">SOLUTIONS ET OFFRES DE SERVICES</a>
@@ -57,12 +54,11 @@
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item dropdown" style="margin-right: 75px;">
                         <a class="nav-link dropdown-toggle" href="http://example.com" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            <img class="nav-profile-img rounded-circle" src="{{ asset('images/alien-profile.png') }}">
+                            <img class="nav-profile-img rounded-circle" src="{{ asset('images/astronaut-profile.png') }}">
                         </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                            <a class="dropdown-item" href="#">Profile</a>
-                            <a class="dropdown-item" href="#">Create Post</a>
-                            <a class="dropdown-item" href="#">Logout</a>
+                            <a class="dropdown-item" href="#">CONTACTER NOUS</a>
+
                         </div>
                     </li>
                 </ul>
