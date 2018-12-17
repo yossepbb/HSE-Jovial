@@ -1,3 +1,5 @@
+{# 'base.html.twig' is the skeleton for the entire website #}
+{# on inside it the code of every single page will be insert #}
 <!doctype html>
 <html lang="en">
 
@@ -29,10 +31,12 @@
             <div class="collapse navbar-collapse" id="navbarNavDropdown">
                 <ul class="navbar-nav mr-auto">
                     <li class="navbar-wagon-item">
-                        <a style="margin-left: 5px; color: #222222;" class="navbar-brand space-brand" href="#">HOME</a>
+                        {# generating url for homepage#}
+                        <a style="margin-left: 5px; color: #222222;" class="navbar-brand space-brand" href="{{ path('app_homepage') }}">HOME</a>
                     </li>
                     <li class="navbar-wagon-item">
-                        <a style="color: #222222;" class="nav-link" href="#">QUI SOMMES-NOUS ?</a>
+                        {# generating url with a slug as params for this link #}
+                        <a style="color: #222222;" class="nav-link" href="{{ path('app_show', {slug: 'qui-sommes-nous'})}}">QUI SOMMES-NOUS ?</a>
                     </li>
                     <li class="nav-item">
                         <a style="color:#222222;" class="nav-link" href="#">SOLUTIONS ET OFFRES DE SERVICES</a>

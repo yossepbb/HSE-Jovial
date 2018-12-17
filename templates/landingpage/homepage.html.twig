@@ -1,5 +1,7 @@
+{# extends 'base' allow us to insert that code into the basic.html.twig page #}
+{# var title replace the link name #}
 {% extends 'base.html.twig' %}
-{% block title %}Global Toxicology and risk assesment{% endblock %}
+{% block title %}{{ title }}{% endblock %}
 
 {% block body %}
 
@@ -8,6 +10,7 @@
     <div class="banner" style="background-image: linear-gradient(-225deg, rgba(0,101,168,0.6) 0%, rgba(0,36,61,0.6) 50%), url('https://www.rcma-expert.eu/toxicologie/uploads/2017/03/client.jpg');">
         <div class="banner-content">
             <h1>HSE</h1>
+            <p>{{ title }}</p>
 
             <a class="btn btn-success btn-lg">En savoir plus</a>
         </div>
