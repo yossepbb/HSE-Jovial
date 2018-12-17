@@ -49,7 +49,7 @@ class LandingController extends AbstractController
     }
 
     /**
-     *
+     *genrating url to services_page. the route's name app_services
      * @Route("/{slug}", name="app_services")
      */
     public function services()
@@ -57,8 +57,9 @@ class LandingController extends AbstractController
         return new Response('New page for services');
     }
 
+
     /**
-     *
+     *genrating url to engagements_page. the route's name app_engagements
      * @Route("/{slug}", name="app_engagements")
      */
     public function engagements()
