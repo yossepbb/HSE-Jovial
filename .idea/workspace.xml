@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ef982d46-ee7c-447f-9f94-403ab1d7faf1" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/Controller/LandingController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/LandingController.php" afterDir="false" />
-    </list>
+    <list default="true" id="ef982d46-ee7c-447f-9f94-403ab1d7faf1" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,12 +16,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Controller/LandingController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="645">
+            <state relative-caret-position="780">
               <caret line="59" selection-start-line="59" selection-end-line="59" />
-              <folding>
-                <element signature="e#626#658#0#PHP" expanded="true" />
-                <element signature="e#855#883#0#PHP" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -33,9 +27,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="15">
               <caret line="1" column="34" selection-start-line="1" selection-start-column="34" selection-end-line="1" selection-end-column="34" />
-              <folding>
-                <element signature="e#12#26#0#Twig" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -43,23 +34,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/base.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
+            <state relative-caret-position="675">
               <caret line="45" column="120" selection-start-line="45" selection-start-column="120" selection-end-line="45" selection-end-column="120" />
-              <folding>
-                <element signature="e#1757#1769#0#Twig" expanded="true" />
-                <element signature="e#1972#1980#0#Twig" expanded="true" />
-                <element signature="e#2422#2434#0#Twig" expanded="true" />
-                <element signature="e#2751#2763#0#Twig" expanded="true" />
-              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/landingpage/show.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" selection-start-line="7" selection-end-line="7" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/templates/landingpage/show.html.twig">
+        <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+            <state relative-caret-position="165">
+              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
             </state>
           </provider>
         </entry>
@@ -92,6 +86,7 @@
         <option value="$PROJECT_DIR$/templates/landingpage/homepage.html.twig" />
         <option value="$PROJECT_DIR$/templates/base.html.twig" />
         <option value="$PROJECT_DIR$/src/Controller/LandingController.php" />
+        <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch.twig" />
       </list>
     </option>
   </component>
@@ -152,7 +147,7 @@
       <path value="$PROJECT_DIR$/vendor/easycorp/easy-log-handler" />
     </include_path>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="40" />
     <option name="y" value="94" />
     <option name="width" value="1134" />
@@ -169,18 +164,12 @@
           <expand>
             <path>
               <item name="HSE-Jovial" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HSE-Jovial" type="462c0819:PsiDirectoryNode" />
+              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
             </path>
             <path>
               <item name="HSE-Jovial" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HSE-Jovial" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="HSE-Jovial" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HSE-Jovial" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="landingpage" type="462c0819:PsiDirectoryNode" />
+              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
+              <item name="Scratches" type="d62648e6:ScratchProjectViewPane$MyRootNode" />
             </path>
           </expand>
           <select />
@@ -191,6 +180,7 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="Twig" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -227,14 +217,16 @@
       <updated>1544564327716</updated>
       <workItem from="1544859370919" duration="13246000" />
       <workItem from="1545020444948" duration="3960000" />
+      <workItem from="1545033282939" duration="648000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17206000" />
+    <option name="totallyTimeSpent" value="17854000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="25" width="1280" height="775" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22109374" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -337,12 +329,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Controller/LandingController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="645">
+        <state relative-caret-position="780">
           <caret line="59" selection-start-line="59" selection-end-line="59" />
-          <folding>
-            <element signature="e#626#658#0#PHP" expanded="true" />
-            <element signature="e#855#883#0#PHP" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -350,29 +338,27 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
           <caret line="1" column="34" selection-start-line="1" selection-start-column="34" selection-end-line="1" selection-end-column="34" />
-          <folding>
-            <element signature="e#12#26#0#Twig" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/base.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
+        <state relative-caret-position="675">
           <caret line="45" column="120" selection-start-line="45" selection-start-column="120" selection-end-line="45" selection-end-column="120" />
-          <folding>
-            <element signature="e#1757#1769#0#Twig" expanded="true" />
-            <element signature="e#1972#1980#0#Twig" expanded="true" />
-            <element signature="e#2422#2434#0#Twig" expanded="true" />
-            <element signature="e#2751#2763#0#Twig" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/landingpage/show.html.twig">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
         </state>
       </provider>
     </entry>
