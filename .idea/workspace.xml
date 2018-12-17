@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ef982d46-ee7c-447f-9f94-403ab1d7faf1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/templates/landingpage/show.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Controller/LandingController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/LandingController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/base.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/landingpage/homepage.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/landingpage/homepage.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/landingpage/show.html.twig.html" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -23,8 +19,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Controller/LandingController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="45" column="111" selection-start-line="45" selection-start-column="111" selection-end-line="45" selection-end-column="111" />
+            <state relative-caret-position="530">
+              <caret line="65" column="53" selection-start-line="65" selection-start-column="53" selection-end-line="65" selection-end-column="53" />
               <folding>
                 <element signature="e#626#658#0#PHP" expanded="true" />
                 <element signature="e#855#883#0#PHP" expanded="true" />
@@ -48,11 +44,13 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/base.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="20" lean-forward="true" selection-start-line="1" selection-start-column="20" selection-end-line="1" selection-end-column="20" />
+            <state relative-caret-position="180">
+              <caret line="45" column="120" selection-start-line="45" selection-start-column="120" selection-end-line="45" selection-end-column="120" />
               <folding>
                 <element signature="e#1757#1769#0#Twig" expanded="true" />
                 <element signature="e#1972#1980#0#Twig" expanded="true" />
+                <element signature="e#2422#2434#0#Twig" expanded="true" />
+                <element signature="e#2751#2763#0#Twig" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -229,12 +227,12 @@
       <option name="presentableId" value="Default" />
       <updated>1544564327716</updated>
       <workItem from="1544859370919" duration="13246000" />
-      <workItem from="1545020444948" duration="3268000" />
+      <workItem from="1545020444948" duration="3762000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16514000" />
+    <option name="totallyTimeSpent" value="17008000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="25" width="1280" height="775" extended-state="6" />
@@ -358,19 +356,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/base.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="20" lean-forward="true" selection-start-line="1" selection-start-column="20" selection-end-line="1" selection-end-column="20" />
+        <state relative-caret-position="180">
+          <caret line="45" column="120" selection-start-line="45" selection-start-column="120" selection-end-line="45" selection-end-column="120" />
           <folding>
             <element signature="e#1757#1769#0#Twig" expanded="true" />
             <element signature="e#1972#1980#0#Twig" expanded="true" />
+            <element signature="e#2422#2434#0#Twig" expanded="true" />
+            <element signature="e#2751#2763#0#Twig" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Controller/LandingController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="45" column="111" selection-start-line="45" selection-start-column="111" selection-end-line="45" selection-end-column="111" />
+        <state relative-caret-position="530">
+          <caret line="65" column="53" selection-start-line="65" selection-start-column="53" selection-end-line="65" selection-end-column="53" />
           <folding>
             <element signature="e#626#658#0#PHP" expanded="true" />
             <element signature="e#855#883#0#PHP" expanded="true" />

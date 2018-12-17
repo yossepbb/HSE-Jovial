@@ -39,10 +39,11 @@
                         <a style="color: #222222;" class="nav-link" href="{{ path('app_show', {slug: 'qui-sommes-nous'})}}">QUI SOMMES-NOUS ?</a>
                     </li>
                     <li class="nav-item">
-                        <a style="color:#222222;" class="nav-link" href="#">SOLUTIONS ET OFFRES DE SERVICES</a>
+                        {# generating url with a slug as params for this link #}
+                        <a style="color:#222222;" class="nav-link" href="{{ path('app_services', {slug:'solutions-et-offres-de-services'}) }}">SOLUTIONS ET OFFRES DE SERVICES</a>
                     </li>
                     <li class="nav-item">
-                        <a style="color: #222222;" class="nav-link" href="#">NOS ENGAGEMENTS</a>
+                        <a style="color: #222222;" class="nav-link" href="{{ path('app_services', {slug:'nos-engagements'}) }}">NOS ENGAGEMENTS</a>
                     </li>
                     <li class="nav-item">
                         <a style="color:#222222;" class="nav-link" href="#">REFERENCES</a>

@@ -47,4 +47,23 @@ class LandingController extends AbstractController
             ['title' => ucwords(str_replace('-',' ',$slug))]
             );
     }
+
+    /**
+     *
+     * @Route("/{slug}", name="app_services")
+     */
+    public function services()
+    {
+        return new Response('New page for services');
+    }
+
+    /**
+     *
+     * @Route("/{slug}", name="app_engagements")
+     */
+    public function engagements()
+    {
+        return new Response('New page for engagements');
+    }
+
 }
