@@ -23,7 +23,7 @@ class LandingController extends AbstractController
 
     public function homepage()
     {
-        dump($this);
+
         $services = [
             'Toxicologue expert', 'Santé et respect des normes', 'cosmétique', 'environnement', 'Maladie', 'Alimentation', 'Regime'
         ];
@@ -42,29 +42,28 @@ class LandingController extends AbstractController
     public function show($slug)
     {
 
-        return $this -> render('landingpage/show.html.twig',
-            //this var will be the title of the showpage. ucwords will replace every '-' present in slug by ' '
-            ['title' => ucwords(str_replace('-',' ',$slug))]
-            );
-    }
 
-    /**
-     *genrating url to services_page. the route's name app_services
-     * @Route("/{slug}", name="app_services")
-     */
-    public function services()
-    {
-        return new Response('New page for services');
-    }
+        // si $slug est egal a 'qui-sommes-nous'
+
+        if ( $slug == 'qui-sommes-nous')
+        {
+            //j'affiche la page qui sommes nous ?
+
+            return $this -> render('landingpage/show.html.twig',
+                ['title' => ucwords(str_replace('-', ' ', $slug))]
+                );
+        }
 
 
-    /**
-     *genrating url to engagements_page. the route's name app_engagements
-     * @Route("/{slug}", name="app_engagements")
-     */
-    public function engagements()
-    {
-        return new Response('New page for engagements');
+
+        if ( $slug == 'devis')
+        {
+            return $this -> render('landingpage/other.html.twig',
+                ['title' => ucwords(str_replace('-', ' ', $slug))]);
+        }
+
     }
+
 
 }
+
