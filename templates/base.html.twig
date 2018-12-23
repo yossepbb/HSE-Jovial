@@ -40,13 +40,13 @@
                     </li>
                     <li class="nav-item">
                         {# generating url with a slug as params for this link #}
-                        <a style="color:#222222;" class="nav-link" href="#">SOLUTIONS ET OFFRES DE SERVICES</a>
+                        <a style="color:#222222;" class="nav-link" href="{{ path('app_show',{slug: 'solutions'}) }}">SOLUTIONS ET OFFRES DE SERVICES</a>
                     </li>
                     <li class="nav-item">
-                        <a style="color: #222222;" class="nav-link" href="#">NOS ENGAGEMENTS</a>
+                        <a style="color: #222222;" class="nav-link" href="{{ path('app_show',{slug: 'engagements'}) }}">NOS ENGAGEMENTS</a>
                     </li>
                     <li class="nav-item">
-                        <a style="color:#222222;" class="nav-link" href="#">REFERENCES</a>
+                        <a style="color:#222222;" class="nav-link" href="{{ path('app_show',{slug: 'références'}) }}">REFERENCES</a>
                     </li>
                     <li class="nav-item">
                         <a style="color:#222222;" class="nav-link" href="{{ path('app_show', {slug: 'devis'}) }}">DEVIS</a>

@@ -43,23 +43,55 @@ class LandingController extends AbstractController
     {
 
 
-        // si $slug est egal a 'qui-sommes-nous'
+        // c'est un routage qui fonctionne
+        // mais qui est long est fastigieu
+        // avec l'instruction switch
 
-        if ( $slug == 'qui-sommes-nous')
+        // une var qui stocke tous les alias des pages du site
+        $slugs = array('qui-sommes-nous', 'solutions', 'engagements', 'références', 'devis', 'contact');
+
+
+        switch ($slugs)
         {
-            //j'affiche la page qui sommes nous ?
+            case $slugs[0] == $slug:
+                //j'affiche la page qui sommes nous ?
 
-            return $this -> render('landingpage/show.html.twig',
-                ['title' => ucwords(str_replace('-', ' ', $slug))]
+                return $this -> render('landingpage/show.html.twig',
+                    ['title' => ucwords(str_replace('-', ' ', $slug))]
                 );
-        }
+                break;
+
+            case $slugs[1]== $slug: //j'affiche la page solution
+                return $this -> render('landingpage/solution.html.twig',
+                    ['title' => ucwords(str_replace('-', ' ', $slug))]);
+                break;
 
 
+            case $slugs[2]== $slug: //j'affiche la page engagements
+                return $this -> render('landingpage/engagement.html.twig',
+                    ['title' => ucwords(str_replace('-', ' ', $slug))]);
+                break;
 
-        if ( $slug == 'devis')
-        {
-            return $this -> render('landingpage/other.html.twig',
-                ['title' => ucwords(str_replace('-', ' ', $slug))]);
+
+                case $slugs[3]== $slug: //j'affiche la page references
+                return $this -> render('landingpage/other.html.twig',
+                    ['title' => ucwords(str_replace('-', ' ', $slug))]);
+                break;
+
+
+            case $slugs[4] == $slug:
+
+                return $this -> render('landingpage/devis.html.twig',
+                    ['title' => ucwords(str_replace('-', ' ', $slug))]);
+                break;
+
+
+            default:
+                //j'affiche les autres pages
+                return $this -> render('landingpage/other.html.twig',
+                    ['title' => ucwords(str_replace('-', ' ', $slug))]);
+                break;
+
         }
 
     }

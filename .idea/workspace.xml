@@ -2,11 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ef982d46-ee7c-447f-9f94-403ab1d7faf1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/tutorial/templates/other.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/landingpage/engagement.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/landingpage/solution.html.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Controller/LandingController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/LandingController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/base.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tutorial/templates/homepage.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/landingpage/other.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/landingpage/devis.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/landingpage/devis.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/landingpage/other.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/landingpage/other.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/landingpage/qui-sommes-nous.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/landingpage/qui-sommes-nous.html.twig" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -22,32 +25,57 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Controller/LandingController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="350">
-              <caret line="59" column="9" selection-start-line="59" selection-start-column="9" selection-end-line="59" selection-end-column="9" />
+            <state relative-caret-position="486">
+              <caret line="86" lean-forward="true" selection-start-line="86" selection-end-line="86" />
               <folding>
                 <element signature="e#119#184#0#PHP" expanded="true" />
                 <element signature="e#690#722#0#PHP" expanded="true" />
-                <element signature="e#1211#1239#1#PHP" expanded="true" />
-                <element signature="e#1455#1484#0#PHP" expanded="true" />
+                <element signature="e#2274#2302#0#PHP" expanded="true" />
+                <element signature="e#2496#2528#0#PHP" expanded="true" />
+                <element signature="e#2732#2766#0#PHP" expanded="true" />
+                <element signature="e#2285#2314#0#PHP" expanded="true" />
+                <element signature="e#2491#2520#0#PHP" expanded="true" />
+                <element signature="e#2971#3000#0#PHP" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/templates/landingpage/other.html.twig">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/landingpage/engagement.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-189">
-              <caret line="8" column="44" selection-start-line="8" selection-start-column="44" selection-end-line="8" selection-end-column="44" />
+            <state>
+              <caret column="13" selection-start-column="13" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/templates/base.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="405">
+              <caret line="51" column="82" selection-start-line="51" selection-start-column="82" selection-end-line="51" selection-end-column="82" />
+              <folding>
+                <element signature="e#2209#2217#0#Twig" expanded="true" />
+                <element signature="e#2503#2511#0#Twig" expanded="true" />
+                <element signature="e#2725#2733#0#Twig" expanded="true" />
+                <element signature="e#2932#2940#0#Twig" expanded="true" />
+                <element signature="e#3048#3056#0#Twig" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/landingpage/show.html.twig">
+        <entry file="file://$PROJECT_DIR$/templates/landingpage/solution.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" selection-start-line="5" selection-end-line="5" />
+            <state>
+              <caret column="13" selection-start-column="13" selection-end-column="13" />
+              <folding>
+                <element signature="e#619#639#0#HTML" expanded="true" />
+                <element signature="e#671#690#0#HTML" expanded="true" />
+                <element signature="e#723#744#0#HTML" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -82,8 +110,12 @@
         <option value="$PROJECT_DIR$/templates/landingpage/devis.html" />
         <option value="$PROJECT_DIR$/src/Controller/DevisController.php" />
         <option value="$PROJECT_DIR$/src/Controller/test.php" />
-        <option value="$PROJECT_DIR$/templates/base.html.twig" />
+        <option value="$PROJECT_DIR$/templates/landingpage/qui-sommes-nous.html.twig" />
         <option value="$PROJECT_DIR$/templates/landingpage/devis.html.twig" />
+        <option value="$PROJECT_DIR$/templates/base.html.twig" />
+        <option value="$PROJECT_DIR$/templates/landingpage/solution.html.twig" />
+        <option value="$PROJECT_DIR$/templates/landingpage/engagement.html.twig" />
+        <option value="$PROJECT_DIR$/templates/landingpage/other.html.twig" />
         <option value="$PROJECT_DIR$/src/Controller/LandingController.php" />
       </list>
     </option>
@@ -242,15 +274,16 @@
       <workItem from="1545020444948" duration="3960000" />
       <workItem from="1545033282939" duration="6801000" />
       <workItem from="1545081722240" duration="322000" />
-      <workItem from="1545494975723" duration="12370000" />
+      <workItem from="1545494975723" duration="15188000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36699000" />
+    <option name="totallyTimeSpent" value="39517000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="25" width="1280" height="775" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22109374" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -338,13 +371,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/landingpage/qui-sommes-nous.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="90" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.twig">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
@@ -380,31 +406,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/base.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="51" column="110" selection-start-line="51" selection-start-column="110" selection-end-line="51" selection-end-column="110" />
-          <folding>
-            <element signature="e#2209#2217#0#Twig" expanded="true" />
-            <element signature="e#3007#3015#0#Twig" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tutorial/templates/article.html.twig">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/landingpage/devis.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="26" selection-start-column="26" selection-end-column="26" />
-          <folding>
-            <element signature="e#491#511#0#HTML" expanded="true" />
-            <element signature="e#543#562#0#HTML" expanded="true" />
-            <element signature="e#595#616#0#HTML" expanded="true" />
-          </folding>
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/landingpage/homepage.html.twig">
       <provider selected="true" editor-type-id="text-editor">
@@ -422,23 +425,83 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Controller/LandingController.php">
+    <entry file="file://$PROJECT_DIR$/templates/landingpage/qui-sommes-nous.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="59" column="9" selection-start-line="59" selection-start-column="9" selection-end-line="59" selection-end-column="9" />
+        <state relative-caret-position="195">
+          <caret line="13" column="103" selection-start-line="13" selection-start-column="103" selection-end-line="13" selection-end-column="103" />
           <folding>
-            <element signature="e#119#184#0#PHP" expanded="true" />
-            <element signature="e#690#722#0#PHP" expanded="true" />
-            <element signature="e#1211#1239#1#PHP" expanded="true" />
-            <element signature="e#1455#1484#0#PHP" expanded="true" />
+            <element signature="e#12#26#0#Twig" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/landingpage/solution.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="13" selection-start-column="13" selection-end-column="13" />
+          <folding>
+            <element signature="e#619#639#0#HTML" expanded="true" />
+            <element signature="e#671#690#0#HTML" expanded="true" />
+            <element signature="e#723#744#0#HTML" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/landingpage/engagement.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="13" selection-start-column="13" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/landingpage/other.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-189">
-          <caret line="8" column="44" selection-start-line="8" selection-start-column="44" selection-end-line="8" selection-end-column="44" />
+        <state relative-caret-position="15">
+          <caret line="1" column="40" selection-start-line="1" selection-start-column="40" selection-end-line="1" selection-end-column="40" />
+          <folding>
+            <element signature="e#12#26#0#Twig" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/landingpage/devis.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+          <folding>
+            <element signature="e#11#25#0#Twig" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Controller/LandingController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="86" lean-forward="true" selection-start-line="86" selection-end-line="86" />
+          <folding>
+            <element signature="e#119#184#0#PHP" expanded="true" />
+            <element signature="e#690#722#0#PHP" expanded="true" />
+            <element signature="e#2274#2302#0#PHP" expanded="true" />
+            <element signature="e#2496#2528#0#PHP" expanded="true" />
+            <element signature="e#2732#2766#0#PHP" expanded="true" />
+            <element signature="e#2285#2314#0#PHP" expanded="true" />
+            <element signature="e#2491#2520#0#PHP" expanded="true" />
+            <element signature="e#2971#3000#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/base.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="51" column="82" selection-start-line="51" selection-start-column="82" selection-end-line="51" selection-end-column="82" />
+          <folding>
+            <element signature="e#2209#2217#0#Twig" expanded="true" />
+            <element signature="e#2503#2511#0#Twig" expanded="true" />
+            <element signature="e#2725#2733#0#Twig" expanded="true" />
+            <element signature="e#2932#2940#0#Twig" expanded="true" />
+            <element signature="e#3048#3056#0#Twig" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
