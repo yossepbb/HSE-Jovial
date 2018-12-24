@@ -1,16 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ef982d46-ee7c-447f-9f94-403ab1d7faf1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/templates/landingpage/engagement.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/landingpage/solution.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/LandingController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/LandingController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/base.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/landingpage/devis.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/landingpage/devis.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/landingpage/other.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/landingpage/other.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/landingpage/qui-sommes-nous.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/landingpage/qui-sommes-nous.html.twig" afterDir="false" />
-    </list>
+    <list default="true" id="ef982d46-ee7c-447f-9f94-403ab1d7faf1" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,11 +13,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Controller/LandingController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="486">
-              <caret line="86" lean-forward="true" selection-start-line="86" selection-end-line="86" />
+            <state relative-caret-position="351">
+              <caret line="92" column="22" selection-start-line="92" selection-start-column="22" selection-end-line="92" selection-end-column="22" />
               <folding>
                 <element signature="e#119#184#0#PHP" expanded="true" />
                 <element signature="e#690#722#0#PHP" expanded="true" />
@@ -50,7 +41,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/base.html.twig">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="405">
@@ -274,16 +265,15 @@
       <workItem from="1545020444948" duration="3960000" />
       <workItem from="1545033282939" duration="6801000" />
       <workItem from="1545081722240" duration="322000" />
-      <workItem from="1545494975723" duration="15188000" />
+      <workItem from="1545494975723" duration="15909000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="39517000" />
+    <option name="totallyTimeSpent" value="40238000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="25" width="1280" height="775" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22109374" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -474,23 +464,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Controller/LandingController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="486">
-          <caret line="86" lean-forward="true" selection-start-line="86" selection-end-line="86" />
-          <folding>
-            <element signature="e#119#184#0#PHP" expanded="true" />
-            <element signature="e#690#722#0#PHP" expanded="true" />
-            <element signature="e#2274#2302#0#PHP" expanded="true" />
-            <element signature="e#2496#2528#0#PHP" expanded="true" />
-            <element signature="e#2732#2766#0#PHP" expanded="true" />
-            <element signature="e#2285#2314#0#PHP" expanded="true" />
-            <element signature="e#2491#2520#0#PHP" expanded="true" />
-            <element signature="e#2971#3000#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/base.html.twig">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="405">
@@ -501,6 +474,23 @@
             <element signature="e#2725#2733#0#Twig" expanded="true" />
             <element signature="e#2932#2940#0#Twig" expanded="true" />
             <element signature="e#3048#3056#0#Twig" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Controller/LandingController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="92" column="22" selection-start-line="92" selection-start-column="22" selection-end-line="92" selection-end-column="22" />
+          <folding>
+            <element signature="e#119#184#0#PHP" expanded="true" />
+            <element signature="e#690#722#0#PHP" expanded="true" />
+            <element signature="e#2274#2302#0#PHP" expanded="true" />
+            <element signature="e#2496#2528#0#PHP" expanded="true" />
+            <element signature="e#2732#2766#0#PHP" expanded="true" />
+            <element signature="e#2285#2314#0#PHP" expanded="true" />
+            <element signature="e#2491#2520#0#PHP" expanded="true" />
+            <element signature="e#2971#3000#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
